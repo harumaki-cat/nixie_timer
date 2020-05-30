@@ -10,7 +10,7 @@ img{
 }
 
 .container{
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
   padding: 15px;
   text-align: center;
@@ -33,4 +33,16 @@ img{
 
 .controls{
   margin-top: 40px;
+}
+
+@media screen and (max-width:600px){
+  img{
+    height: 7%;
+    width: 7%;
+  }
+
+  .btn{
+    font-size: .5rem;
+    margin-right: 0;
+  }
 }
